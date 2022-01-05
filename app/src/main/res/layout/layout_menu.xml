@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="320dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bogoc1">
+
+    <LinearLayout
+        android:id="@+id/menu_thongtin"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical"
+        android:background="@drawable/bogoc1"
+        android:clickable="true"
+        android:focusable="true"
+        android:padding="20dp">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img_avt"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/avatar_default_icon"
+            />
+
+        <TextView
+            android:id="@+id/txt_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quốc Toản"
+            android:textSize="20dp"
+            android:textColor="#3949AB"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp"/>
+
+        <TextView
+            android:id="@+id/txt_nameimail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="iamtranhaquoctoan@gmail.com"
+            android:textSize="16dp"
+            android:textColor="#3949AB"
+            android:layout_marginTop="8dp"/>
+    </LinearLayout>
+
+
+    <GridLayout
+        android:columnCount="1"
+        android:rowCount="3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnOrderPreserved="false"
+        android:alignmentMode="alignMargins"
+        >
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="295dp"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginTop="20dp"
+            android:layout_margin="0dp">
+
+            <LinearLayout
+                android:id="@+id/menu_home"
+                android:layout_width="match_parent"
+                android:background="@drawable/bogoc1"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:clickable="true"
+                android:focusable="true"
+                android:padding="10dp">
+
+                <ImageButton
+                    android:id="@+id/btn_menu_home"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@android:color/transparent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_home_24" />
+
+                <TextView
+                    android:layout_width="167dp"
+                    android:layout_height="wrap_content"
+                    android:text="HOME"
+                    android:layout_marginStart="15dp"
+                    android:textColor="#3949AB"
+                    android:textSize="18sp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="295dp"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginTop="14dp"
+            android:layout_margin="0dp">
+
+            <LinearLayout
+                android:id="@+id/menu_theloai"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:background="@drawable/bogoc1"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@android:color/transparent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_thloai_24" />
+
+                <TextView
+                    android:layout_width="167dp"
+                    android:layout_height="wrap_content"
+                    android:text="THỂ LOẠI"
+                    android:layout_marginStart="15dp"
+                    android:textColor="#3949AB"
+                    android:textSize="18sp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="295dp"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginTop="14dp">
+
+            <LinearLayout
+                android:id="@+id/menu_dieukhoansudung"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:background="@drawable/bogoc1"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@android:color/transparent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_dieukhoan_24" />
+
+                <TextView
+                    android:layout_width="167dp"
+                    android:layout_height="wrap_content"
+                    android:text="Điều khoản sử dụng"
+                    android:layout_marginStart="15dp"
+                    android:textColor="#3949AB"
+                    android:textSize="18sp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="295dp"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginTop="14dp">
+
+            <LinearLayout
+                android:id="@+id/menu_trungtamhotro"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/bogoc1"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@android:color/transparent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_matcuoi_24" />
+
+                <TextView
+                    android:layout_width="167dp"
+                    android:layout_height="wrap_content"
+                    android:text="Trung tâm hỗ trợ"
+                    android:layout_marginStart="15dp"
+                    android:textColor="#3949AB"
+                    android:textSize="18sp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="295dp"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginTop="14dp">
+
+            <LinearLayout
+                android:id="@+id/menu_gopy"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/bogoc1"
+                android:clickable="true"
+                android:focusable="true"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@android:color/transparent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_gopy_24" />
+
+                <TextView
+                    android:layout_width="167dp"
+                    android:layout_height="wrap_content"
+                    android:text="Góp ý"
+                    android:layout_marginStart="15dp"
+                    android:textColor="#3949AB"
+                    android:textSize="18sp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="295dp"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginTop="14dp">
+
+            <LinearLayout
+                android:id="@+id/menu_dangxuat"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/bogoc1"
+                android:clickable="true"
+                android:focusable="true"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@android:color/transparent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_logout_24" />
+
+                <TextView
+                    android:layout_width="167dp"
+                    android:layout_height="wrap_content"
+                    android:text="Đăng xuất"
+                    android:layout_marginStart="15dp"
+                    android:textColor="#3949AB"
+                    android:textSize="18sp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </GridLayout>
+
+    <ImageView
+        android:src="@drawable/avt"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+</LinearLayout>

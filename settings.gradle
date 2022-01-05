@@ -1,0 +1,2 @@
+rootProject.name = "AppmoveTV_doan3"
+include ':app'

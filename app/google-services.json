@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "647886149090",
+    "firebase_url": "https://moviedoan3-default-rtdb.firebaseio.com",
+    "project_id": "moviedoan3",
+    "storage_bucket": "moviedoan3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:647886149090:android:d00af548c27b1582c615bb",
+        "android_client_info": {
+          "package_name": "com.appmovetv"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "647886149090-u1j6brn5apcumb26gv685ehl2c08posq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.appmovetv",
+            "certificate_hash": "d16732809b80b61a1ca9c40cfd54c28868cf703f"
+          }
+        },
+        {
+          "client_id": "647886149090-rrol688a5vvhnlh3osd2iek3s5kuvcrd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwS6oy2tL_TGLU7Q-0iyzLyK5w26QezzU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "647886149090-rrol688a5vvhnlh3osd2iek3s5kuvcrd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
