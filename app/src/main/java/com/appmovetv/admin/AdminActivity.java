@@ -66,5 +66,7 @@ public class AdminActivity extends AppCompatActivity  {
         btnaddmovie = findViewById(R.id.btn_addmovie);
     }
 
+    // nnanfsd
+
 
 }
